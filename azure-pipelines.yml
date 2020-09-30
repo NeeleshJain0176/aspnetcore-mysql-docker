@@ -12,7 +12,7 @@ stages:
   jobs:
   - job:
     steps:
-    - script: echo Testing on Windows $(myVar)
+    - script: echo Testing on Windows $env:DBPWD
 
 # - stage:
 #   jobs:
