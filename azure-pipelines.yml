@@ -6,6 +6,9 @@
 trigger:
 - none
 
+variables:
+  myVar: Prod
+
 pool:
   vmImage: 'ubuntu-latest'
 
