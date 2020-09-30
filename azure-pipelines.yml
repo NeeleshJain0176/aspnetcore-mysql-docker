@@ -14,7 +14,7 @@ stages:
   jobs:
   - job:
     steps:
-    - script: echo Testing on Windows!
+    - script: echo Testing on Windows $(myVar)
     strategy: 
       parallel: 4
 - stage:
